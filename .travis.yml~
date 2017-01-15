@@ -1,6 +1,4 @@
 language: android
-before_install:
- - chmod +x gradlew
 android:
   components:
     - tools
@@ -17,4 +15,5 @@ notification:
     on_success: change
     on_failure: always
 
-
+before_install:
+ - chmod +x gradlew
